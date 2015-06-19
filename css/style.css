@@ -55,8 +55,44 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      margin:0px;
+     padding: 20px;
 }
 
 /******************************************
 /* LAYOUT                   
 /*******************************************/
+
+
+header {
+     background-color: #d8d8d8;
+     border: 1px solid black;
+     height: 150px;
+     margin-bottom: 20px;
+}
+
+main {
+     background-color: #d8d8d8;
+     border: 1px solid black;
+     float: left;
+     height: 300px;
+     width: 73%;
+     margin-right: 2%;
+     margin-bottom: 20px;
+}
+
+aside {
+     background-color: #d8d8d8;
+     border: 1px solid black;
+     float: left;
+     margin-bottom: 10px;
+     height: 300px;
+     width: 25%;
+}
+
+footer {
+     background-color: #d8d8d8;
+     border: 1px solid black;
+     margin-bottom: 10px;
+     clear: both;
+     height: 150px;
+}
